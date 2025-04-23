@@ -19,7 +19,7 @@ Este é um site criado usando **TypeScript**, **Express**, **EJS**, e **JavaScri
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/crynew/DiscordWebsite-Friends.git
+   git clone https://github.com/yr1c/90i-website.git 
    ```
 
 2. Instale as dependências:
