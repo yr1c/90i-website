@@ -1,0 +1,39 @@
+{
+  "name": "site-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Este é um site criado usando **TypeScript**, **Express**, **EJS**, e **JavaScript**. O objetivo é permitir que os usuários criem um site pessoal para eles e seus amigos, onde é possível adicionar ou remover pessoas através de um bot do Discord.",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "memory-cache": "^0.2.0",
+    "nodemon": "^3.1.9",
+    "serverless-http": "^3.2.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/memory-cache": "^0.2.6",
+    "@types/node": "^22.14.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yr1c/site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yr1c/site/issues"
+  },
+  "homepage": "https://github.com/yr1c/site#readme"
+}
